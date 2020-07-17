@@ -1,0 +1,108 @@
+body {
+    font-family: "Libre Franklin", Helvetica, Arial, sans-serif;
+	line-height: 1.88889;
+}
+
+.main-container {
+    padding-left: 0;
+    padding-right: 0;
+}
+.main-carousel {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.heading-3 {
+    font-size: 2.8rem;
+}
+
+.sec-para-lg {
+    font-size: 1.5rem; 
+}
+
+.sec-para-md {
+    font-size: 1.2rem;
+}
+
+.sec-para-sm {
+    font-size: 1rem;
+}
+
+.primary-text {
+    color: #002f5c;
+}
+
+.first-sec {
+    background-image: url('../Images/image-9.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.water-indications .water-circle:nth-child(1) {
+    background-color: #d90000;
+}
+
+.water-indications .water-circle:nth-child(2) {
+    background-color: #f5e200;
+}
+
+.water-indications .water-circle:nth-child(3) {
+    background-color: #4ec42a;
+}
+
+.water-indications .water-circle:nth-child(4) {
+    background-color:#005aff;
+}
+
+.water-indications .water-circle:nth-child(5) {
+    background-color: #9627ca;
+}
+
+.bg-color {
+    background-color: #f8f8f8;
+}
+
+.water-circle {
+    width: 4.25rem;
+    height: 4.25rem;
+    border-radius: 50%;
+}
+
+.foot-links li {
+    list-style-type: none;
+}
+
+.foot-link {
+    color: white;
+}
+
+.facebook {
+    color: #3b5998;
+}
+
+.twitter {
+    color: #00acee;
+}
+
+.linkedin {
+    color: #0e76a8;
+}
+
+.instagram {
+    color: #3f729b;
+}
+
+.youtube {
+    color: #FF0000;
+}
+
+.primary-bg {
+    background-color: #4285f4;
+    background-color: #3333FF;
+    background-color: #0053b3;
+}
+@media screen and (max-width: 875px){
+    .news-info {
+        flex-direction: column;
+    }
+}
